@@ -131,7 +131,7 @@ helmet-compliance-monitoring-system/
 ├── requirements.txt
 ├── .gitignore
 │
-├── helmet_compliance_monitoring.ipynb
+├── helmet_compliance_system.ipynb
 ├── train.py
 └── detect_video.py
 How to Run
