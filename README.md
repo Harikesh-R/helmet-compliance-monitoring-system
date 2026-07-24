@@ -41,6 +41,9 @@ The project uses a YOLO-compatible safety helmet detection dataset containing th
 2. No Helmet
 3. Worker
 
+Dataset source:
+https://universe.roboflow.com/archisman-sengupta-j1ltg/safety-helmet-detection-aasyc/dataset/1
+The dataset is licensed under CC BY 4.0 according to the dataset metadata.
 Dataset split:
 
 | Dataset Split | Number of Images |
@@ -136,7 +139,7 @@ helmet-compliance-monitoring-system/
 └── detect_video.py
 How to Run
 1. Clone the repository
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Harikesh-R/helmet-compliance-monitoring-system.git
 cd helmet-compliance-monitoring-system
 2. Install dependencies
 pip install -r requirements.txt
