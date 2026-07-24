@@ -125,6 +125,20 @@ The output video demonstrates the model detecting:
 
 The generated video was produced using the trained YOLO11 model.
 
+### Trained Model Weights
+
+The trained model weights (`best.pt`) are generated after training the YOLO11 Nano model using `train.py`.
+
+The model weights are not included in this repository because of file size. To run video inference, place the trained `best.pt` file in the project directory and update the `MODEL_PATH` variable in `detect_video.py` if necessary.
+
+Example:
+
+```text
+helmet-compliance-monitoring-system/
+├── best.pt
+├── detect_video.py
+└── ...
+
 ## Project Structure
 
 ```text
